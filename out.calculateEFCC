@@ -1,0 +1,391 @@
+LAMMPS (2 Aug 2023 - Update 1)
+Lattice spacing in x,y,z = 3.82 3.82 3.82
+Created orthogonal box = (0 0 0) to (11.46 11.46 11.46)
+  1 by 1 by 1 MPI processor grid
+Created 108 atoms
+  using lattice units in orthogonal box = (0 0 0) to (11.46 11.46 11.46)
+  create_atoms CPU = 0.000 seconds
+Neighbor list info ...
+  update: every = 1 steps, delay = 0 steps, check = no
+  max neighbors/atom: 2000, page size: 100000
+  master list distance cutoff = 5.30053
+  ghost atom cutoff = 5.30053
+  binsize = 2.650265, bins = 5 5 5
+  2 neighbor lists, perpetual/occasional/extra = 2 0 0
+  (1) pair afromeamxa, perpetual
+      attributes: full, newton on, cut 3.81
+      pair build: full/bin/atomonly
+      stencil: full/bin/3d
+      bin: standard
+  (2) pair eam/alloy, perpetual
+      attributes: half, newton on
+      pair build: half/bin/atomonly/newton
+      stencil: half/bin/3d
+      bin: standard
+Setting up Verlet run ...
+  Unit style    : metal
+  Current step  : 0
+  Time step     : 0.001
+numshort:11
+j,k = 653 606
+rij = 0 1.91 1.91
+dij = 2.70115
+rik = 1.91 0 1.91
+dik = 2.70115
+u3jik = -0.0020625
+j,k = 653 563
+rij = 0 1.91 1.91
+dij = 2.70115
+rik = -1.91 0 1.91
+dik = 2.70115
+u3jik = -0.0020625
+j,k = 653 564
+rij = 0 1.91 1.91
+dij = 2.70115
+rik = 0 -1.91 1.91
+dik = 2.70115
+u3jik = -5.01366e-66
+j,k = 653 354
+rij = 0 1.91 1.91
+dij = 2.70115
+rik = 1.91 1.91 0
+dik = 2.70115
+u3jik = -0.0020625
+j,k = 653 303
+rij = 0 1.91 1.91
+dij = 2.70115
+rik = -1.91 1.91 0
+dik = 2.70115
+u3jik = -0.0020625
+j,k = 653 164
+rij = 0 1.91 1.91
+dij = 2.70115
+rik = 1.91 -1.91 0
+dik = 2.70115
+u3jik = -0.0020625
+j,k = 653 1
+rij = 0 1.91 1.91
+dij = 2.70115
+rik = -1.91 -1.91 0
+dik = 2.70115
+u3jik = -0.0020625
+j,k = 653 304
+rij = 0 1.91 1.91
+dij = 2.70115
+rik = 0 1.91 -1.91
+dik = 2.70115
+u3jik = -5.01366e-66
+j,k = 653 165
+rij = 0 1.91 1.91
+dij = 2.70115
+rik = 1.91 0 -1.91
+dik = 2.70115
+u3jik = -0.0020625
+j,k = 653 2
+rij = 0 1.91 1.91
+dij = 2.70115
+rik = -1.91 0 -1.91
+dik = 2.70115
+u3jik = -0.0020625
+j,k = 606 563
+rij = 1.91 0 1.91
+dij = 2.70115
+rik = -1.91 0 1.91
+dik = 2.70115
+u3jik = -5.01366e-66
+j,k = 606 564
+rij = 1.91 0 1.91
+dij = 2.70115
+rik = 0 -1.91 1.91
+dik = 2.70115
+u3jik = -0.0020625
+j,k = 606 354
+rij = 1.91 0 1.91
+dij = 2.70115
+rik = 1.91 1.91 0
+dik = 2.70115
+u3jik = -0.0020625
+j,k = 606 303
+rij = 1.91 0 1.91
+dij = 2.70115
+rik = -1.91 1.91 0
+dik = 2.70115
+u3jik = -0.0020625
+j,k = 606 164
+rij = 1.91 0 1.91
+dij = 2.70115
+rik = 1.91 -1.91 0
+dik = 2.70115
+u3jik = -0.0020625
+j,k = 606 1
+rij = 1.91 0 1.91
+dij = 2.70115
+rik = -1.91 -1.91 0
+dik = 2.70115
+u3jik = -0.0020625
+j,k = 606 304
+rij = 1.91 0 1.91
+dij = 2.70115
+rik = 0 1.91 -1.91
+dik = 2.70115
+u3jik = -0.0020625
+j,k = 606 165
+rij = 1.91 0 1.91
+dij = 2.70115
+rik = 1.91 0 -1.91
+dik = 2.70115
+u3jik = -5.01366e-66
+j,k = 606 2
+rij = 1.91 0 1.91
+dij = 2.70115
+rik = -1.91 0 -1.91
+dik = 2.70115
+u3jik = -0.033
+j,k = 563 564
+rij = -1.91 0 1.91
+dij = 2.70115
+rik = 0 -1.91 1.91
+dik = 2.70115
+u3jik = -0.0020625
+j,k = 563 354
+rij = -1.91 0 1.91
+dij = 2.70115
+rik = 1.91 1.91 0
+dik = 2.70115
+u3jik = -0.0020625
+j,k = 563 303
+rij = -1.91 0 1.91
+dij = 2.70115
+rik = -1.91 1.91 0
+dik = 2.70115
+u3jik = -0.0020625
+j,k = 563 164
+rij = -1.91 0 1.91
+dij = 2.70115
+rik = 1.91 -1.91 0
+dik = 2.70115
+u3jik = -0.0020625
+j,k = 563 1
+rij = -1.91 0 1.91
+dij = 2.70115
+rik = -1.91 -1.91 0
+dik = 2.70115
+u3jik = -0.0020625
+j,k = 563 304
+rij = -1.91 0 1.91
+dij = 2.70115
+rik = 0 1.91 -1.91
+dik = 2.70115
+u3jik = -0.0020625
+j,k = 563 165
+rij = -1.91 0 1.91
+dij = 2.70115
+rik = 1.91 0 -1.91
+dik = 2.70115
+u3jik = -0.033
+j,k = 563 2
+rij = -1.91 0 1.91
+dij = 2.70115
+rik = -1.91 0 -1.91
+dik = 2.70115
+u3jik = -5.01366e-66
+j,k = 564 354
+rij = 0 -1.91 1.91
+dij = 2.70115
+rik = 1.91 1.91 0
+dik = 2.70115
+u3jik = -0.0020625
+j,k = 564 303
+rij = 0 -1.91 1.91
+dij = 2.70115
+rik = -1.91 1.91 0
+dik = 2.70115
+u3jik = -0.0020625
+j,k = 564 164
+rij = 0 -1.91 1.91
+dij = 2.70115
+rik = 1.91 -1.91 0
+dik = 2.70115
+u3jik = -0.0020625
+j,k = 564 1
+rij = 0 -1.91 1.91
+dij = 2.70115
+rik = -1.91 -1.91 0
+dik = 2.70115
+u3jik = -0.0020625
+j,k = 564 304
+rij = 0 -1.91 1.91
+dij = 2.70115
+rik = 0 1.91 -1.91
+dik = 2.70115
+u3jik = -0.033
+j,k = 564 165
+rij = 0 -1.91 1.91
+dij = 2.70115
+rik = 1.91 0 -1.91
+dik = 2.70115
+u3jik = -0.0020625
+j,k = 564 2
+rij = 0 -1.91 1.91
+dij = 2.70115
+rik = -1.91 0 -1.91
+dik = 2.70115
+u3jik = -0.0020625
+j,k = 354 303
+rij = 1.91 1.91 0
+dij = 2.70115
+rik = -1.91 1.91 0
+dik = 2.70115
+u3jik = -5.01366e-66
+j,k = 354 164
+rij = 1.91 1.91 0
+dij = 2.70115
+rik = 1.91 -1.91 0
+dik = 2.70115
+u3jik = -5.01366e-66
+j,k = 354 1
+rij = 1.91 1.91 0
+dij = 2.70115
+rik = -1.91 -1.91 0
+dik = 2.70115
+u3jik = -0.033
+j,k = 354 304
+rij = 1.91 1.91 0
+dij = 2.70115
+rik = 0 1.91 -1.91
+dik = 2.70115
+u3jik = -0.0020625
+j,k = 354 165
+rij = 1.91 1.91 0
+dij = 2.70115
+rik = 1.91 0 -1.91
+dik = 2.70115
+u3jik = -0.0020625
+j,k = 354 2
+rij = 1.91 1.91 0
+dij = 2.70115
+rik = -1.91 0 -1.91
+dik = 2.70115
+u3jik = -0.0020625
+j,k = 303 164
+rij = -1.91 1.91 0
+dij = 2.70115
+rik = 1.91 -1.91 0
+dik = 2.70115
+u3jik = -0.033
+j,k = 303 1
+rij = -1.91 1.91 0
+dij = 2.70115
+rik = -1.91 -1.91 0
+dik = 2.70115
+u3jik = -5.01366e-66
+j,k = 303 304
+rij = -1.91 1.91 0
+dij = 2.70115
+rik = 0 1.91 -1.91
+dik = 2.70115
+u3jik = -0.0020625
+j,k = 303 165
+rij = -1.91 1.91 0
+dij = 2.70115
+rik = 1.91 0 -1.91
+dik = 2.70115
+u3jik = -0.0020625
+j,k = 303 2
+rij = -1.91 1.91 0
+dij = 2.70115
+rik = -1.91 0 -1.91
+dik = 2.70115
+u3jik = -0.0020625
+j,k = 164 1
+rij = 1.91 -1.91 0
+dij = 2.70115
+rik = -1.91 -1.91 0
+dik = 2.70115
+u3jik = -5.01366e-66
+j,k = 164 304
+rij = 1.91 -1.91 0
+dij = 2.70115
+rik = 0 1.91 -1.91
+dik = 2.70115
+u3jik = -0.0020625
+j,k = 164 165
+rij = 1.91 -1.91 0
+dij = 2.70115
+rik = 1.91 0 -1.91
+dik = 2.70115
+u3jik = -0.0020625
+j,k = 164 2
+rij = 1.91 -1.91 0
+dij = 2.70115
+rik = -1.91 0 -1.91
+dik = 2.70115
+u3jik = -0.0020625
+j,k = 1 304
+rij = -1.91 -1.91 0
+dij = 2.70115
+rik = 0 1.91 -1.91
+dik = 2.70115
+u3jik = -0.0020625
+j,k = 1 165
+rij = -1.91 -1.91 0
+dij = 2.70115
+rik = 1.91 0 -1.91
+dik = 2.70115
+u3jik = -0.0020625
+j,k = 1 2
+rij = -1.91 -1.91 0
+dij = 2.70115
+rik = -1.91 0 -1.91
+dik = 2.70115
+u3jik = -0.0020625
+j,k = 304 165
+rij = 0 1.91 -1.91
+dij = 2.70115
+rik = 1.91 0 -1.91
+dik = 2.70115
+u3jik = -0.0020625
+j,k = 304 2
+rij = 0 1.91 -1.91
+dij = 2.70115
+rik = -1.91 0 -1.91
+dik = 2.70115
+u3jik = -0.0020625
+j,k = 165 2
+rij = 1.91 0 -1.91
+dij = 2.70115
+rik = -1.91 0 -1.91
+dik = 2.70115
+u3jik = -5.01366e-66
+Per MPI rank memory allocation (min/avg/max) = 3.479 | 3.479 | 3.479 Mbytes
+   Step          Temp          PotEng         v_eper    
+         0   0             -469.52866     -4.3474876    
+Loop time of 1e-06 on 1 procs for 0 steps with 108 atoms
+
+100.0% CPU use with 1 MPI tasks x no OpenMP threads
+
+MPI task timing breakdown:
+Section |  min time  |  avg time  |  max time  |%varavg| %total
+---------------------------------------------------------------
+Pair    | 0          | 0          | 0          |   0.0 |  0.00
+Neigh   | 0          | 0          | 0          |   0.0 |  0.00
+Comm    | 0          | 0          | 0          |   0.0 |  0.00
+Output  | 0          | 0          | 0          |   0.0 |  0.00
+Modify  | 0          | 0          | 0          |   0.0 |  0.00
+Other   |            | 1e-06      |            |       |100.00
+
+Nlocal:            108 ave         108 max         108 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Nghost:            558 ave         558 max         558 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Neighs:           2268 ave        2268 max        2268 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+FullNghs:         1296 ave        1296 max        1296 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+
+Total # of neighbors = 2268
+Ave neighs/atom = 21
+Neighbor list builds = 0
+Dangerous builds not checked
+-4.34748756766384
+Total wall time: 0:00:00

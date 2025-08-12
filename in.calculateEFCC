@@ -1,0 +1,41 @@
+# calculate E FCC
+variable    nlat index 3        # size of box
+
+units  	    metal
+atom_style  atomic
+
+atom_modify	map yes
+lattice 	fcc 3.82   # lattice constant of fcc-Av
+region 		box block 0 ${nlat} 0 ${nlat} 0 ${nlat}
+create_box  	1 box
+create_atoms 	1 box
+mass 		1 39.903
+
+# select from among the three choices
+#==================================================
+# EAM alone
+#pair_style eam/alloy 
+#pair_coeff * * Av.EAMX.eam.alloy Av
+
+# AFROMEAMXA alone
+#pair_style afromeamxa 3.82078
+#pair_coeff 1 1 2.701699 3.82078 0.100
+
+# hybrid/overly of eam/alloy and afromeamxa
+pair_style hybrid/overlay afromeamxa 3.81 eam/alloy
+pair_coeff * * eam/alloy Av.EAMX.eam.alloy Av
+pair_coeff 1 1 afromeamxa 2.71 3.81 0.033
+#==================================================
+
+neighbor     0.0 bin
+neigh_modify every 1 delay 0 check no
+
+fix	     nve all nve
+
+variable eper equal pe/atoms
+thermo_style 	custom step temp pe v_eper 
+thermo 		1
+run 		0
+
+print ${eper} file EFCC.dat
+

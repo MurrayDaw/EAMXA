@@ -1,0 +1,20 @@
+EAMX+A / Murray S Daw / 11 Aug 20205
+
+Some examples and tests.
+
+These give examples of how to use new pair_style:
+
+in.numdiff   use numdiff fix to confirm forces
+in.calculateEBCC, in.calculateEFCC to calculate FCC and BCC energies
+
+EAM energy is computed for eam/alloy file Av.EAMX.eam.alloy (Averagium).
+
+
+
+
+ 
+
+
+
+
+
