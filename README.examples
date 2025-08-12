@@ -7,7 +7,9 @@ These give examples of how to use new pair_style:
 in.numdiff   use numdiff fix to confirm forces
 in.calculateEBCC, in.calculateEFCC to calculate FCC and BCC energies
 
-EAM energy is computed for eam/alloy file Av.EAMX.eam.alloy (Averagium).
+EAM energy is computed for eam/alloy file Av.EAMX.eam.alloy (Averagium). Then the angular addition is computed with parameters defined by the pair_coeff line for afromeamxa ( rin=2.71, rout=3.82, alpha=0.033 ) and added to the EAM energy.
+
+
 
 
 
